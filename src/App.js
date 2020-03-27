@@ -4,6 +4,7 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
+import About from './components/About';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 				<Navbar />
 				<Switch>
 					<Route exact path='/' component={Intro} />
+					<Route exact path='/about' component={About} />
 				</Switch>
 			</div>
 		</Router>

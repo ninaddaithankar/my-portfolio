@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,600,700,700i|Montserrat:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,600,700,400i,700i|Montserrat:400,600,700&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -25,19 +25,19 @@ body {
 	padding: 1.1em 2.8em;
 }
 
-.navbar ul {
+.nav-list {
 	display: inline-flex;
 	margin-left: auto;
 	flex-direction: row;
 	list-style-type: none;
 }
 
-.navbar ul li a {
+.nav-list-link {
 	margin-right: 2.2em;
 	padding: 1em 1em;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: rgba(106, 106, 106, 0.8);
@@ -49,14 +49,19 @@ body {
 	transition: transform ease-in-out 40ms;
 }
 
+.nav-list-link:hover {
+	color: darkgreen;
+	font-weight: 700;
+}
+
 .navbar ul li:hover {
 	transform-origin: bottom;
 	transform: scale(1.2);
 }
 
-.navbar ul li a:hover {
-	color: darkgreen;
-	font-weight: 700;
+.navbar ul li a:active {
+	transform-origin: bottom;
+	transform: scale(1.2);
 }
 
 .btn-link {
@@ -68,6 +73,11 @@ body {
 	text-decoration: none;
 	color: rgba(106, 106, 106, 0.8);
 	cursor: pointer;
+}
+
+.link-active {
+	color: darkgreen;
+	font-weight: 700;
 }
 
 .logo {
@@ -82,12 +92,17 @@ body {
 	letter-spacing: 0.21em;
 	text-transform: uppercase;
 
-	color: #0a7a44;
+	color: rgba(106, 106, 106, 0.8);
+}
+
+.logo-active {
+	color: darkgreen;
 }
 
 .intro-flex {
-	height: 82vh;
-	margin: auto;
+	position: relative;
+	height: 100%;
+	margin: 7vh auto;
 	display: flex;
 	flex-direction: row;
 	align-content: center;
@@ -115,23 +130,40 @@ body {
 	transform: rotate(90deg);
 }
 
-.svg-graphic {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	align-content: center;
+.about-large-text {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 3rem;
+	line-height: 108.6%;
+	text-align: right;
+
+	color: #000000;
 }
 
-.outer-svg .middle-svg .inner-svg {
-	justify-self: center;
+.about-text {
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 120.6%;
 }
 
-.outer-svg {
-	z-index: -2;
+.about-footer {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	color: rgba(106, 106, 106, 0.8);
+	align-self: baseline;
 }
-.middle-svg {
-	z-index: -1;
-}
-.inner-svg {
-	z-index: 0;
+
+.quoter-text {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.6rem;
+	line-height: 108.6%;
+	/* or 26px */
+
+	text-align: right;
+
+	color: #000000;
 }
