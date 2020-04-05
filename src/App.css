@@ -1,21 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,600,700,400i,700i|Montserrat:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400i,700i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-size: 16px;
 }
 
 a {
+	display: inline-block;
 	text-decoration: none;
 	color: rgba(106, 106, 106, 0.8);
 }
 
 body {
-	font-family: 'Cormorant Garamond', 'Times New Roman', Times, serif;
-	min-height: 100%;
-	min-width: 100%;
+	font-family: 'Cormorant Garamond';
+	font-display: fallback;
+	height: 100vh;
+	width: 100vw;
 }
+
+/* .App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+} */
 
 .navbar {
 	font-family: 'Montserrat', sans-serif;
@@ -34,7 +47,7 @@ body {
 
 .nav-list-link {
 	margin-right: 2.2em;
-	padding: 1em 1em;
+	padding: 0em 1em;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 0.9rem;
@@ -42,27 +55,20 @@ body {
 	text-decoration: none;
 	color: rgba(106, 106, 106, 0.8);
 	cursor: pointer;
-	transition: color ease-in-out 40ms;
-}
-
-.navbar ul li {
-	transition: transform ease-in-out 40ms;
+	transition: color ease-in-out 40ms, transform ease-in-out 40ms;
 }
 
 .nav-list-link:hover {
+	transform-origin: bottom;
+	transform: scale(1.2);
 	color: darkgreen;
 	font-weight: 700;
 }
 
-.navbar ul li:hover {
+/* .navbar ul li a:active {
 	transform-origin: bottom;
 	transform: scale(1.2);
-}
-
-.navbar ul li a:active {
-	transform-origin: bottom;
-	transform: scale(1.2);
-}
+} */
 
 .btn-link {
 	font-family: 'Montserrat', sans-serif;
@@ -76,15 +82,16 @@ body {
 }
 
 .link-active {
+	cursor: default;
+	transform-origin: bottom;
+	transform: scale(1.2);
 	color: darkgreen;
 	font-weight: 700;
 }
 
 .logo {
 	cursor: pointer;
-
 	margin-left: 2em;
-
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 600;
@@ -100,19 +107,24 @@ body {
 }
 
 .intro-flex {
-	position: relative;
-	height: 100%;
-	margin: 7vh auto;
+	margin-top: 10.6vh;
 	display: flex;
 	flex-direction: row;
-	align-content: center;
 	justify-content: center;
 	align-items: center;
-	align-self: center;
+}
+
+.filler-flex-top {
+	flex: 0.1 1 auto;
+}
+
+.filler-flex-bottom {
+	flex: 1 1 auto;
 }
 
 .intro-text {
 	margin-top: 1em;
+	width: 40vw;
 	font-family: 'Cormorant Garamond', serif;
 	font-style: normal;
 	font-weight: 600;
@@ -131,9 +143,10 @@ body {
 }
 
 .about-large-text {
+	margin-bottom: 1em;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 3rem;
+	font-size: 4rem;
 	line-height: 108.6%;
 	text-align: right;
 
@@ -166,4 +179,60 @@ body {
 	text-align: right;
 
 	color: #000000;
+}
+
+/* Work Section */
+
+.work-flex {
+	margin: auto;
+	justify-content: center;
+	width: 80em;
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.card {
+	width: 20em;
+	margin: 1em 2em;
+	padding: 2em;
+	display: block;
+	border: 1px solid #d4d1ff;
+	box-sizing: border-box;
+	border-radius: 23px;
+	text-align: center;
+}
+
+.card-title {
+	margin-top: 6em;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+
+	color: #0a7a44;
+}
+
+.card-summary {
+	padding: 0 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+@media (min-width: 1270px) and (max-width: 1461px) {
+	* {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 1270px) {
+	* {
+		font-size: 15px;
+	}
+	.intro-text {
+		font-size: 4rem;
+	}
+	.about-large-text {
+		font-size: 4rem;
+	}
 }

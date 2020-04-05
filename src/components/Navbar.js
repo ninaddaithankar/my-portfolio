@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
-const Navbar = props => {
+const Navbar = (props) => {
 	return (
 		<div class='navbar'>
 			<NavLink exact to='/' activeClassName='logo logo-active' className='logo'>
@@ -9,7 +9,14 @@ const Navbar = props => {
 			</NavLink>
 			<ul className='nav-list'>
 				<li>
-					<Link className='nav-list-link'>Work</Link>
+					<NavLink
+						exact
+						to='/work'
+						activeClassName='nav-list-link link-active'
+						className='nav-list-link'
+					>
+						Work
+					</NavLink>
 				</li>
 				<li>
 					<NavLink
