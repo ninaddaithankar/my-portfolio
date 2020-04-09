@@ -11,9 +11,11 @@ const About = () => {
 						<br /> call life was made by
 						<br /> people no smarter
 						<br /> than you. And you
-						<br /> can change it. ”<br />
+						<br /> can change it. ”
 					</div>
-					<div className='quoter-text'>- Steve Jobs</div>
+					<div className='quoter-text' style={{ marginTop: '1.8em' }}>
+						- Steve Jobs
+					</div>
 				</section>
 
 				<section class='vertical-border'></section>
@@ -61,7 +63,7 @@ const About = () => {
 					</div>
 					<div
 						className=' about-footer'
-						style={{ marginTop: '4rem', marginBottom: '0.2rem' }}
+						style={{ marginTop: '3em', marginBottom: '0.2rem' }}
 					>
 						Currently, Full Stack Intern at Edgelytics
 					</div>
