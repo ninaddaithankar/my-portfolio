@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ninaddaithankar.github.io/my-portfolio-react/static/css/main.214b462a.chunk.css",
+    "main.js": "/ninaddaithankar.github.io/my-portfolio-react/static/js/main.0f2ac7f9.chunk.js",
+    "main.js.map": "/ninaddaithankar.github.io/my-portfolio-react/static/js/main.0f2ac7f9.chunk.js.map",
+    "runtime-main.js": "/ninaddaithankar.github.io/my-portfolio-react/static/js/runtime-main.7a808ba6.js",
+    "runtime-main.js.map": "/ninaddaithankar.github.io/my-portfolio-react/static/js/runtime-main.7a808ba6.js.map",
+    "static/js/2.587a403a.chunk.js": "/ninaddaithankar.github.io/my-portfolio-react/static/js/2.587a403a.chunk.js",
+    "static/js/2.587a403a.chunk.js.map": "/ninaddaithankar.github.io/my-portfolio-react/static/js/2.587a403a.chunk.js.map",
+    "index.html": "/ninaddaithankar.github.io/my-portfolio-react/index.html",
+    "precache-manifest.e899fac2e141b6d3e03546d820a409c0.js": "/ninaddaithankar.github.io/my-portfolio-react/precache-manifest.e899fac2e141b6d3e03546d820a409c0.js",
+    "service-worker.js": "/ninaddaithankar.github.io/my-portfolio-react/service-worker.js",
+    "static/css/main.214b462a.chunk.css.map": "/ninaddaithankar.github.io/my-portfolio-react/static/css/main.214b462a.chunk.css.map",
+    "static/js/2.587a403a.chunk.js.LICENSE.txt": "/ninaddaithankar.github.io/my-portfolio-react/static/js/2.587a403a.chunk.js.LICENSE.txt",
+    "static/media/profile-hi-res.JPG": "/ninaddaithankar.github.io/my-portfolio-react/static/media/profile-hi-res.32044e92.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a808ba6.js",
+    "static/js/2.587a403a.chunk.js",
+    "static/css/main.214b462a.chunk.css",
+    "static/js/main.0f2ac7f9.chunk.js"
+  ]
+}
