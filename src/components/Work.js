@@ -27,23 +27,23 @@ const Work = () => {
 		{
 			title: 'Time Quiz-2019',
 			summary:
-				'A fun project, imbued with minimalism, and a showcase for previous work.',
+				'A JavaFX desktop application, for visual interaction in the TIME Quiz-2019 Finale.',
 			techStack: 'JavaFX, CSS & XML',
 			purpose: 'Freelance',
 		},
 		{
 			title: 'Time Quiz-2018',
 			summary:
-				'A fun project, imbued with minimalism, and a showcase for previous work.',
+				'A Java application, for basic visual interaction in the TIME Quiz-2018 Finale.',
 			techStack: 'Java, Swing',
 			purpose: 'Freelance',
 		},
-		{
-			title: 'My Web Portfolio',
-			summary:
-				'A fun project, imbued with minimalism, and a showcase for previous work.',
-			purpose: 'Personal',
-		},
+		// {
+		// 	title: 'Cybertimes Design',
+		// 	summary:
+		// 		'A fun project, imbued with minimalism, and a showcase for previous work.',
+		// 	purpose: 'Personal',
+		// },
 	];
 	return (
 		<div className='work-flex'>

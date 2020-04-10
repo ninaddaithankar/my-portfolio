@@ -6,20 +6,33 @@ const Intro = () => {
 		<>
 			{/* <div className='filler-flex-top'></div> */}
 			<div class='intro-flex'>
-				<section class='intro-text' style={{ width: '40vw' }}>
-					A student
-					<br /> learning to{' '}
-					<span style={{ color: '#21B06C', fontSize: 'inherit' }}>design</span>
-					<br />{' '}
-					<span style={{ color: '#21B06C', fontSize: 'inherit' }}>develop</span>
-					<br /> &{' '}
-					<span style={{ color: '#21B06C', fontSize: 'inherit' }}>deploy</span>
-					<br /> engaging experiences.
-					<br /> <Link className='btn-link'>View Work ></Link>
+				<section>
+					<div className='intro-text'>
+						A student
+						<br /> learning to{' '}
+						<span style={{ color: '#21B06C', fontSize: 'inherit' }}>
+							design
+						</span>
+						<br />{' '}
+						<span style={{ color: '#21B06C', fontSize: 'inherit' }}>
+							develop
+						</span>
+						<br /> &{' '}
+						<span style={{ color: '#21B06C', fontSize: 'inherit' }}>
+							deploy
+						</span>
+						<br /> web experiences.
+						<br />{' '}
+					</div>
+					<div className='intro-bottom-link'>
+						<Link className='btn-link' to='/my-portfolio-react/work'>
+							View Work >
+						</Link>
+					</div>
 				</section>
 
 				<section class='vertical-border'></section>
-				<section style={{ width: '40vw' }}>
+				<section className='svg-section'>
 					<svg
 						width='501'
 						height='341'

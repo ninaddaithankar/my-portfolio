@@ -3,7 +3,7 @@ import profilephoto from '../assets/images/profile-hi-res.JPG';
 const About = () => {
 	return (
 		<>
-			<div class='intro-flex' style={{ marginTop: '4vh' }}>
+			<div class='about-flex' style={{ marginTop: '4vh' }}>
 				<section style={{ alignSelf: 'flex-end', width: '40vw' }}>
 					<div className='about-large-text'>
 						“ Everything <br />
@@ -19,13 +19,8 @@ const About = () => {
 				</section>
 
 				<section class='vertical-border'></section>
-				<section style={{ alignSelf: 'center', width: '40vw' }}>
-					<svg
-						width='200'
-						height='200'
-						viewBox='0 0 200 200'
-						style={{ marginLeft: '-1rem' }}
-					>
+				<section className='about-right-section'>
+					<svg width='200' height='200' viewBox='0 0 200 200'>
 						<defs>
 							<clipPath id='circleView'>
 								<circle cx='94.5' cy='94.5' r='91.5' />
