@@ -2,28 +2,40 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400i,700i');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
 
+:root {
+	/* colors */
+	--primary-color: darkgreen;
+	--secondary-color: green;
+	--dark-color: #1a1a1a;
+	--light-color: rgba(106, 106, 106, 0.8);
+
+	/* fonts */
+	--display-font: 'Cormorant Garamond';
+	--secondary-font: 'Montserrat', sans-serif;
+}
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
+	/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 
 a {
 	display: inline-block;
 	text-decoration: none;
-	color: rgba(106, 106, 106, 0.8);
+	color: var(--light-color);
 }
 
 body {
-	font-family: 'Cormorant Garamond';
+	font-family: var(--display-font);
 	font-display: fallback;
 	height: 100%;
 	width: 100%;
 }
 
 .navbar {
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--secondary-font);
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
@@ -45,7 +57,7 @@ body {
 	font-size: 0.9rem;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: rgba(106, 106, 106, 0.8);
+	color: var(--light-color);
 	cursor: pointer;
 	transition: color ease-in-out 40ms, transform ease-in-out 40ms;
 }
@@ -53,18 +65,18 @@ body {
 .nav-list-link:hover {
 	transform-origin: bottom;
 	transform: scale(1.2);
-	color: darkgreen;
+	color: var(--primary-color);
 	font-weight: 700;
 }
 
 .btn-link {
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--secondary-font);
 	font-style: normal;
 	font-weight: 600;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: rgba(106, 106, 106, 0.8);
+	color: var(--light-color);
 	cursor: pointer;
 }
 
@@ -72,25 +84,25 @@ body {
 	cursor: default;
 	transform-origin: bottom;
 	transform: scale(1.2);
-	color: darkgreen;
+	color: var(--primary-color);
 	font-weight: 700;
 }
 
 .logo {
 	cursor: pointer;
 	margin-left: 2em;
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--secondary-font);
 	font-style: normal;
 	font-weight: 600;
-	font-size: 1rem;
-	letter-spacing: 3px;
+	font-size: 0.9rem;
+	letter-spacing: 5px;
 	text-transform: uppercase;
 
-	color: rgba(106, 106, 106, 0.8);
+	color: var(--light-color);
 }
 
 .logo-active {
-	color: darkgreen;
+	color: var(--primary-color);
 }
 
 .intro-flex,
@@ -100,6 +112,10 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+
+.about-flex {
+	margin-top: 7vh;
 }
 
 .filler-flex-top {
@@ -113,13 +129,14 @@ body {
 .intro-text {
 	margin-top: 1em;
 	width: 40vw;
-	font-family: 'Cormorant Garamond', serif;
+	font-family: var(--display-font);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 4rem;
 	line-height: 1.12;
 	text-align: right;
 	color: #1a1a1a;
+	animation: 1s right-to-left ease-out forwards;
 }
 
 .intro-bottom-link {
@@ -127,6 +144,7 @@ body {
 	width: 100%;
 	display: flex;
 	flex-direction: row-reverse;
+	transform: translateY(15px);
 }
 
 .intro-graphic {
@@ -134,7 +152,18 @@ body {
 	height: 80%;
 }
 
-.vertical-border {
+.vertical-border-real {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	flex-basis: 1;
+	width: 170px;
+	height: 1.3px;
+	background: #1a1a1a;
+	transform: translate(-50%, -50%) rotate(90deg);
+}
+.vertical-border-shadow {
+	opacity: 0;
 	flex-basis: 1;
 	width: 170px;
 	height: 1.3px;
@@ -144,11 +173,13 @@ body {
 
 .svg-section {
 	width: 40vw;
+	animation: 1s left-to-right ease-out forwards;
 }
 
 .about-right-section {
 	align-self: center;
 	width: 40vw;
+	animation: 1s left-to-right ease-out forwards;
 }
 
 .about-right-section svg {
@@ -162,7 +193,8 @@ body {
 	line-height: 1.12;
 	text-align: right;
 
-	color: #2a2a2a;
+	color: var(--dark-color);
+	animation: 1s right-to-left ease-out forwards;
 }
 
 .about-text {
@@ -172,12 +204,12 @@ body {
 }
 
 .about-footer {
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--secondary-font);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 0.9rem;
 	text-transform: uppercase;
-	color: rgba(106, 106, 106, 0.8);
+	color: var(--light-color);
 	align-self: baseline;
 }
 
@@ -190,7 +222,8 @@ body {
 
 	text-align: right;
 
-	color: #000000;
+	color: var(--dark-color);
+	animation: 1s right-to-left ease-out forwards;
 }
 
 /* Work Section */
@@ -213,38 +246,38 @@ body {
 	border-radius: 23px;
 	text-align: center;
 	background-color: rgb(247, 245, 245);
-	/* box-shadow: 0.5px 0.5px 4px 0.05px lightgrey; */
+	box-shadow: 0.5px 0.5px 4px 0.05px lightgrey;
 
 	transition: transform 0.1s ease-in-out, box-shadow 0.1s linear;
 }
 
 .card:hover {
-	transform: translate(-3px, -3px);
-	box-shadow: 2px 2px 7px 0.05px lightgrey;
+	transform: translate(-5px, -5px);
+	box-shadow: 5px 5px 10px 0.05px lightgrey;
 }
 
 .card-title {
 	margin-top: 6em;
 	margin-bottom: 0.7em;
-	font-family: Montserrat;
+	font-family: var(--secondary-font);
 	font-weight: bold;
 	font-size: 1.4rem;
 	text-transform: uppercase;
-	color: darkgreen;
+	color: var(--primary-color);
 	cursor: pointer;
 }
 
 .card-subtitle {
 	margin-top: 0.5em;
-	font-family: 'Montserrat';
-	font-size: 0.8rem;
+	font-family: var(--secondary-font);
+	font-size: 0.7rem;
 	font-weight: 700;
 	padding: 1rem;
 	padding-bottom: 0;
 }
 
 .card-text {
-	font-family: Montserrat;
+	font-family: var(--secondary-font);
 	font-size: 0.9rem;
 	line-height: 1.5;
 	padding: 0.5em 0.5em;
@@ -253,6 +286,29 @@ body {
 .about-profile-photo {
 	width: 189px;
 	height: 189px;
+}
+
+@keyframes right-to-left {
+	0% {
+		transform: translateX(60px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@keyframes left-to-right {
+	0% {
+		transform: translateX(-60px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
 }
 
 @media (min-width: 1366px) and (max-width: 1461px) {

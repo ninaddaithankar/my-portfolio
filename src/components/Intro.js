@@ -5,6 +5,8 @@ import graphic from '../assets/svg/intro-graphic.svg';
 const Intro = () => {
 	return (
 		<>
+			<section class='vertical-border-real'></section>
+
 			<div class='intro-flex'>
 				<section>
 					<div className='intro-text'>
@@ -31,9 +33,13 @@ const Intro = () => {
 					</div>
 				</section>
 
-				<section class='vertical-border'></section>
+				<section class='vertical-border-shadow'></section>
 				<section className='svg-section'>
-					<img src={graphic} className='intro-graphic' />
+					<img
+						src={graphic}
+						className='intro-graphic'
+						alt='intro-graphic-undraw'
+					/>
 				</section>
 			</div>
 		</>

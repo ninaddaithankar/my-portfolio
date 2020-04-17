@@ -3,7 +3,8 @@ import profilephoto from '../assets/images/profile-hi-res.JPG';
 const About = () => {
 	return (
 		<>
-			<div class='about-flex' style={{ marginTop: '4vh' }}>
+			<section class='vertical-border-real'></section>
+			<div class='about-flex'>
 				<section style={{ alignSelf: 'flex-end', width: '40vw' }}>
 					<div className='about-large-text'>
 						“ Everything <br />
@@ -17,8 +18,8 @@ const About = () => {
 						- Steve Jobs
 					</div>
 				</section>
+				<section class='vertical-border-shadow'></section>
 
-				<section class='vertical-border'></section>
 				<section className='about-right-section'>
 					<div className='about-profile-photo'>
 						<svg width='100%' height='100%' viewBox='0 0 189 189'>
