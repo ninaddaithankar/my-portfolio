@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/static/css/main.c7865d05.chunk.css",
-    "main.js": "/my-portfolio-react/static/js/main.a4baa36c.chunk.js",
-    "main.js.map": "/my-portfolio-react/static/js/main.a4baa36c.chunk.js.map",
+    "main.css": "/my-portfolio-react/static/css/main.195d178a.chunk.css",
+    "main.js": "/my-portfolio-react/static/js/main.f3280cd6.chunk.js",
+    "main.js.map": "/my-portfolio-react/static/js/main.f3280cd6.chunk.js.map",
     "runtime-main.js": "/my-portfolio-react/static/js/runtime-main.3a38d5f0.js",
     "runtime-main.js.map": "/my-portfolio-react/static/js/runtime-main.3a38d5f0.js.map",
-    "static/js/2.58f3b77d.chunk.js": "/my-portfolio-react/static/js/2.58f3b77d.chunk.js",
-    "static/js/2.58f3b77d.chunk.js.map": "/my-portfolio-react/static/js/2.58f3b77d.chunk.js.map",
+    "static/js/2.15ddc51a.chunk.js": "/my-portfolio-react/static/js/2.15ddc51a.chunk.js",
+    "static/js/2.15ddc51a.chunk.js.map": "/my-portfolio-react/static/js/2.15ddc51a.chunk.js.map",
     "index.html": "/my-portfolio-react/index.html",
-    "precache-manifest.3f84c219a8d69cea31824e98dda8402a.js": "/my-portfolio-react/precache-manifest.3f84c219a8d69cea31824e98dda8402a.js",
+    "precache-manifest.82a9adfc6ba1f95530865d9cb6036f91.js": "/my-portfolio-react/precache-manifest.82a9adfc6ba1f95530865d9cb6036f91.js",
     "service-worker.js": "/my-portfolio-react/service-worker.js",
-    "static/css/main.c7865d05.chunk.css.map": "/my-portfolio-react/static/css/main.c7865d05.chunk.css.map",
-    "static/js/2.58f3b77d.chunk.js.LICENSE.txt": "/my-portfolio-react/static/js/2.58f3b77d.chunk.js.LICENSE.txt",
+    "static/css/main.195d178a.chunk.css.map": "/my-portfolio-react/static/css/main.195d178a.chunk.css.map",
+    "static/js/2.15ddc51a.chunk.js.LICENSE.txt": "/my-portfolio-react/static/js/2.15ddc51a.chunk.js.LICENSE.txt",
     "static/media/portfolio1.png": "/my-portfolio-react/static/media/portfolio1.596d4ab0.png",
     "static/media/profile-hi-res.JPG": "/my-portfolio-react/static/media/profile-hi-res.32044e92.JPG",
     "static/media/App.css": "/my-portfolio-react/static/media/spinner.8ee7fcb9.gif",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3a38d5f0.js",
-    "static/js/2.58f3b77d.chunk.js",
-    "static/css/main.c7865d05.chunk.css",
-    "static/js/main.a4baa36c.chunk.js"
+    "static/js/2.15ddc51a.chunk.js",
+    "static/css/main.195d178a.chunk.css",
+    "static/js/main.f3280cd6.chunk.js"
   ]
 }
