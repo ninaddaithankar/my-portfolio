@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/static/css/main.ef2d0da6.chunk.css",
-    "main.js": "/my-portfolio-react/static/js/main.34d3c13b.chunk.js",
-    "main.js.map": "/my-portfolio-react/static/js/main.34d3c13b.chunk.js.map",
+    "main.css": "/my-portfolio-react/static/css/main.ad404dca.chunk.css",
+    "main.js": "/my-portfolio-react/static/js/main.dfd3154d.chunk.js",
+    "main.js.map": "/my-portfolio-react/static/js/main.dfd3154d.chunk.js.map",
     "runtime-main.js": "/my-portfolio-react/static/js/runtime-main.3a38d5f0.js",
     "runtime-main.js.map": "/my-portfolio-react/static/js/runtime-main.3a38d5f0.js.map",
-    "static/js/2.c31e24c0.chunk.js": "/my-portfolio-react/static/js/2.c31e24c0.chunk.js",
-    "static/js/2.c31e24c0.chunk.js.map": "/my-portfolio-react/static/js/2.c31e24c0.chunk.js.map",
+    "static/js/2.6be2e9a6.chunk.js": "/my-portfolio-react/static/js/2.6be2e9a6.chunk.js",
+    "static/js/2.6be2e9a6.chunk.js.map": "/my-portfolio-react/static/js/2.6be2e9a6.chunk.js.map",
     "index.html": "/my-portfolio-react/index.html",
-    "precache-manifest.20675f4c6b432f1a312654116d37a83b.js": "/my-portfolio-react/precache-manifest.20675f4c6b432f1a312654116d37a83b.js",
+    "precache-manifest.7ab5961990d2e8acc442d5a13ae8cfcc.js": "/my-portfolio-react/precache-manifest.7ab5961990d2e8acc442d5a13ae8cfcc.js",
     "service-worker.js": "/my-portfolio-react/service-worker.js",
-    "static/css/main.ef2d0da6.chunk.css.map": "/my-portfolio-react/static/css/main.ef2d0da6.chunk.css.map",
-    "static/js/2.c31e24c0.chunk.js.LICENSE.txt": "/my-portfolio-react/static/js/2.c31e24c0.chunk.js.LICENSE.txt",
-    "static/media/other.png": "/my-portfolio-react/static/media/other.a99a9fd6.png",
+    "static/css/main.ad404dca.chunk.css.map": "/my-portfolio-react/static/css/main.ad404dca.chunk.css.map",
+    "static/js/2.6be2e9a6.chunk.js.LICENSE.txt": "/my-portfolio-react/static/js/2.6be2e9a6.chunk.js.LICENSE.txt",
+    "static/media/portfolio1.png": "/my-portfolio-react/static/media/portfolio1.596d4ab0.png",
     "static/media/profile-hi-res.JPG": "/my-portfolio-react/static/media/profile-hi-res.32044e92.JPG",
     "static/media/svg-portrait-new.svg": "/my-portfolio-react/static/media/svg-portrait-new.256afced.svg",
-    "static/media/time.png": "/my-portfolio-react/static/media/time.60bf3be2.png"
+    "static/media/time-1.png": "/my-portfolio-react/static/media/time-1.559b8279.png",
+    "static/media/time-2.png": "/my-portfolio-react/static/media/time-2.6e803370.png",
+    "static/media/time-32.png": "/my-portfolio-react/static/media/time-32.dfca9dd2.png",
+    "static/media/unwrapp.png": "/my-portfolio-react/static/media/unwrapp.74a035ca.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3a38d5f0.js",
-    "static/js/2.c31e24c0.chunk.js",
-    "static/css/main.ef2d0da6.chunk.css",
-    "static/js/main.34d3c13b.chunk.js"
+    "static/js/2.6be2e9a6.chunk.js",
+    "static/css/main.ad404dca.chunk.css",
+    "static/js/main.dfd3154d.chunk.js"
   ]
 }
