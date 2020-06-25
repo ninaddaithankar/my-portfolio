@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = (props) => {
 	return (
-		<div class='navbar'>
+		<div className='navbar'>
 			<NavLink
 				exact
 				to='/my-portfolio-react'
@@ -18,7 +18,7 @@ const Navbar = (props) => {
 						exact
 						to='/my-portfolio-react/work'
 						activeClassName='nav-list-link link-active'
-						className='nav-list-link nav-link-work'
+						className='nav-list-link'
 					>
 						Work
 					</NavLink>
@@ -28,13 +28,20 @@ const Navbar = (props) => {
 						exact
 						to='/my-portfolio-react/about'
 						activeClassName='nav-list-link link-active'
-						className='nav-list-link nav-link-about'
+						className='nav-list-link'
 					>
 						About
 					</NavLink>
 				</li>
 				<li>
-					<Link className='nav-list-link nav-link-contact'>Contact</Link>
+					<NavLink
+						exact
+						to='/my-portfolio-react/contact'
+						activeClassName='nav-list-link link-active'
+						className='nav-list-link'
+					>
+						Contact
+					</NavLink>
 				</li>
 			</ul>
 		</div>

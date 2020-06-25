@@ -18,7 +18,7 @@ const About = () => {
 						- Steve Jobs
 					</div>
 				</section>
-				<section class='vertical-border-shadow'></section>
+				<section className='vertical-border-shadow'></section>
 
 				<section className='about-right-section'>
 					<div className='about-profile-photo'>
@@ -50,13 +50,13 @@ const About = () => {
 						Me
 					</div>
 					<div className='about-text' style={{ marginTop: '1em' }}>
-						I started coding for one single reason,
+						I code for one single reason,
 						<br /> to make products, apps and things I’d myself love to use.
 					</div>
 					<div className='about-text' style={{ marginTop: '1em' }}>
-						As of now, I’m learning full stack web development,
-						<br /> & I have a predilection for articulate design, aesthetics
-						<br /> and user experience.
+						As of now, I’m into the esoteric world of deep learning,
+						<br /> with prior experience in designing & developing
+						<br /> web-apps using React.
 					</div>
 					<div className='about-text' style={{ marginTop: '1em' }}>
 						I also play piano, photograph wildlife and play cricket.
@@ -65,7 +65,18 @@ const About = () => {
 						className=' about-footer'
 						style={{ marginTop: '3em', marginBottom: '0.2rem' }}
 					>
-						Currently, Full Stack Intern at Edgelytics
+						Ex-Web Dev Intern at{' '}
+						<a
+							href='https://www.edgelytics.in'
+							target='_blank'
+							rel='noopener noreferrer'
+							style={{
+								borderBottom: '2px solid cornflowerblue',
+								fontSize: 'inherit',
+							}}
+						>
+							Edgelytics
+						</a>
 					</div>
 				</section>
 			</div>

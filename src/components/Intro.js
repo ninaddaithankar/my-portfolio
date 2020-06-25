@@ -1,29 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import graphic from '../assets/svg/intro-graphic.svg';
+import graphic from '../assets/svg/svg-portrait-new.svg';
+import spinner from '../assets/images/spinner.gif';
 
 const Intro = () => {
+	const [loaded, setLoaded] = useState(false);
 	return (
 		<>
-			<section class='vertical-border-real'></section>
+			<section className='vertical-border-real'></section>
 
-			<div class='intro-flex'>
+			<div className='intro-flex'>
 				<section>
 					<div className='intro-text'>
 						A student
-						<br /> learning to{' '}
-						<span style={{ color: '#21B06C', fontSize: 'inherit' }}>
-							design
+						<br /> currently{' '}
+						<span className='highlight-text'>
+							exploring<span className='comma'> </span>
+							<br />& embracing <br />
+							the artistry
 						</span>
-						<br />{' '}
-						<span style={{ color: '#21B06C', fontSize: 'inherit' }}>
-							develop
-						</span>
-						<br /> &{' '}
-						<span style={{ color: '#21B06C', fontSize: 'inherit' }}>
-							deploy
-						</span>
-						<br /> web experiences.
+						<br /> in deep learning.
 						<br />{' '}
 					</div>
 					<div className='intro-bottom-link'>
@@ -33,11 +29,16 @@ const Intro = () => {
 					</div>
 				</section>
 
-				<section class='vertical-border-shadow'></section>
+				<section className='vertical-border-shadow'></section>
 				<section className='svg-section'>
+					{!loaded && <img src={spinner} alt='spinner' />}
+
 					<img
 						src={graphic}
 						className='intro-graphic'
+						onLoad={() => {
+							setLoaded(true);
+						}}
 						alt='intro-graphic-undraw'
 					/>
 				</section>
