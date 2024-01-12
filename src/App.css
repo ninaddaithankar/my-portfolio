@@ -235,6 +235,11 @@ body {
 	align-self: baseline;
 }
 
+.about-footer {
+	font-size: 1rem;
+	text-transform: none;
+}
+
 .contact-footer {
 	animation: 1s floater ease-out forwards;
 }

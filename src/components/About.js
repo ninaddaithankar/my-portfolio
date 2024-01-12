@@ -65,9 +65,9 @@ const About = () => {
 						className=' about-footer'
 						style={{ marginTop: '3em', marginBottom: '0.2rem' }}
 					>
-						Ex-Web Dev Intern at{' '}
+						CURRENTLY SWE @ {' '}
 						<a
-							href='https://www.edgelytics.in'
+							href='https://www.1eq.com/products_eqube-platform'
 							target='_blank'
 							rel='noopener noreferrer'
 							style={{
@@ -75,7 +75,7 @@ const About = () => {
 								fontSize: 'inherit',
 							}}
 						>
-							Edgelytics
+							eQ
 						</a>
 					</div>
 				</section>
