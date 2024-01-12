@@ -15,7 +15,7 @@ const Work = () => {
 			techStack: 'React & CSS',
 			purpose: 'Personal Interest',
 			image: portfolio,
-			link: 'https://github.com/ninaddaithankar/my-portfolio-react',
+			link: 'https://github.com/ninaddaithankar/my-portfolio',
 		},
 		{
 			title: 'E-TIME Quiz-2020',

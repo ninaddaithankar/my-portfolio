@@ -23,7 +23,7 @@ const Intro = () => {
 						<br />{' '}
 					</div>
 					<div className='intro-bottom-link'>
-						<Link className='btn-link' to='/my-portfolio-react/work'>
+						<Link className='btn-link' to='/my-portfolio/work'>
 							View Work >
 						</Link>
 					</div>

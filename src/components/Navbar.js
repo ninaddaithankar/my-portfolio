@@ -6,7 +6,7 @@ const Navbar = (props) => {
 		<div className='navbar'>
 			<NavLink
 				exact
-				to='/my-portfolio-react'
+				to='/my-portfolio'
 				activeClassName='logo logo-active'
 				className='logo'
 			>
@@ -16,7 +16,7 @@ const Navbar = (props) => {
 				<li>
 					<NavLink
 						exact
-						to='/my-portfolio-react/work'
+						to='/my-portfolio/work'
 						activeClassName='nav-list-link link-active'
 						className='nav-list-link'
 					>
@@ -26,7 +26,7 @@ const Navbar = (props) => {
 				<li>
 					<NavLink
 						exact
-						to='/my-portfolio-react/about'
+						to='/my-portfolio/about'
 						activeClassName='nav-list-link link-active'
 						className='nav-list-link'
 					>
@@ -36,7 +36,7 @@ const Navbar = (props) => {
 				<li>
 					<NavLink
 						exact
-						to='/my-portfolio-react/contact'
+						to='/my-portfolio/contact'
 						activeClassName='nav-list-link link-active'
 						className='nav-list-link'
 					>
